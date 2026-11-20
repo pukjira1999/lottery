@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-20T09:04:35Z",
+  "title": "Design System: วงล้อลุ้นเลข",
+  "extensions": {
+    "colorMeta": {
+      "ticket-green": {
+        "role": "primary",
+        "displayName": "Ticket Green",
+        "tonalRamp": [
+          "oklch(15% 0.115 156.9)",
+          "oklch(25% 0.115 156.9)",
+          "oklch(35% 0.115 156.9)",
+          "oklch(45% 0.115 156.9)",
+          "oklch(55% 0.115 156.9)",
+          "oklch(65% 0.115 156.9)",
+          "oklch(80% 0.115 156.9)",
+          "oklch(95% 0.115 156.9)"
+        ]
+      },
+      "forest-green": {
+        "role": "primary",
+        "displayName": "Forest Green",
+        "tonalRamp": [
+          "oklch(15% 0.092 157.2)",
+          "oklch(25% 0.092 157.2)",
+          "oklch(35% 0.092 157.2)",
+          "oklch(45% 0.092 157.2)",
+          "oklch(55% 0.092 157.2)",
+          "oklch(65% 0.092 157.2)",
+          "oklch(80% 0.092 157.2)",
+          "oklch(95% 0.092 157.2)"
+        ]
+      },
+      "match-wash": {
+        "role": "primary",
+        "displayName": "Match Wash",
+        "tonalRamp": [
+          "oklch(15% 0.028 155.3)",
+          "oklch(25% 0.028 155.3)",
+          "oklch(35% 0.028 155.3)",
+          "oklch(45% 0.028 155.3)",
+          "oklch(55% 0.028 155.3)",
+          "oklch(65% 0.028 155.3)",
+          "oklch(80% 0.028 155.3)",
+          "oklch(95% 0.028 155.3)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "tonalRamp": [
+          "oklch(15% 0.008 91.5)",
+          "oklch(25% 0.008 91.5)",
+          "oklch(35% 0.008 91.5)",
+          "oklch(45% 0.008 91.5)",
+          "oklch(55% 0.008 91.5)",
+          "oklch(65% 0.008 91.5)",
+          "oklch(80% 0.008 91.5)",
+          "oklch(95% 0.008 91.5)"
+        ]
+      },
+      "white-paper": {
+        "role": "neutral",
+        "displayName": "White Paper",
+        "tonalRamp": [
+          "oklch(15% 0.005 95.1)",
+          "oklch(25% 0.005 95.1)",
+          "oklch(35% 0.005 95.1)",
+          "oklch(45% 0.005 95.1)",
+          "oklch(55% 0.005 95.1)",
+          "oklch(65% 0.005 95.1)",
+          "oklch(80% 0.005 95.1)",
+          "oklch(95% 0.005 95.1)"
+        ]
+      },
+      "deep-ink": {
+        "role": "neutral",
+        "displayName": "Deep Ink",
+        "tonalRamp": [
+          "oklch(15% 0.026 162.4)",
+          "oklch(25% 0.026 162.4)",
+          "oklch(35% 0.026 162.4)",
+          "oklch(45% 0.026 162.4)",
+          "oklch(55% 0.026 162.4)",
+          "oklch(65% 0.026 162.4)",
+          "oklch(80% 0.026 162.4)",
+          "oklch(95% 0.026 162.4)"
+        ]
+      },
+      "soft-ink": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "tonalRamp": [
+          "oklch(15% 0.022 157.3)",
+          "oklch(25% 0.022 157.3)",
+          "oklch(35% 0.022 157.3)",
+          "oklch(45% 0.022 157.3)",
+          "oklch(55% 0.022 157.3)",
+          "oklch(65% 0.022 157.3)",
+          "oklch(80% 0.022 157.3)",
+          "oklch(95% 0.022 157.3)"
+        ]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "tonalRamp": [
+          "oklch(15% 0.018 148.3)",
+          "oklch(25% 0.018 148.3)",
+          "oklch(35% 0.018 148.3)",
+          "oklch(45% 0.018 148.3)",
+          "oklch(55% 0.018 148.3)",
+          "oklch(65% 0.018 148.3)",
+          "oklch(80% 0.018 148.3)",
+          "oklch(95% 0.018 148.3)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Paper Rule",
+        "tonalRamp": [
+          "oklch(15% 0.012 106.6)",
+          "oklch(25% 0.012 106.6)",
+          "oklch(35% 0.012 106.6)",
+          "oklch(45% 0.012 106.6)",
+          "oklch(55% 0.012 106.6)",
+          "oklch(65% 0.012 106.6)",
+          "oklch(80% 0.012 106.6)",
+          "oklch(95% 0.012 106.6)"
+        ]
+      },
+      "strong-rule": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "tonalRamp": [
+          "oklch(15% 0.018 145.4)",
+          "oklch(25% 0.018 145.4)",
+          "oklch(35% 0.018 145.4)",
+          "oklch(45% 0.018 145.4)",
+          "oklch(55% 0.018 145.4)",
+          "oklch(65% 0.018 145.4)",
+          "oklch(80% 0.018 145.4)",
+          "oklch(95% 0.018 145.4)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Page display",
+        "purpose": "Thai page titles and question-style draw headings."
+      },
+      "headline": {
+        "displayName": "Section heading",
+        "purpose": "Names the ticket, entries, and administration sections."
+      },
+      "body": {
+        "displayName": "Interface body",
+        "purpose": "Short Thai explanations, table content, and field copy."
+      },
+      "label": {
+        "displayName": "Compact label",
+        "purpose": "Field labels, table headings, and small status copy."
+      },
+      "control": {
+        "displayName": "Compact control",
+        "purpose": "Button labels in draw and import actions."
+      },
+      "search": {
+        "displayName": "Search field",
+        "purpose": "Typed participant-name lookup."
+      },
+      "navigation": {
+        "displayName": "Navigation item",
+        "purpose": "Thai view names in the main navigation."
+      },
+      "numeric": {
+        "displayName": "Tabular numerals",
+        "purpose": "Lottery digits, round identifiers, counts, and match scores."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ticket-lift",
+        "value": "0 7px 18px rgb(35 58 43 / 7%)",
+        "purpose": "Separates the result ticket from the tinted draw panel."
+      },
+      {
+        "name": "connected-status-halo",
+        "value": "0 0 0 3px #dff1e4",
+        "purpose": "Adds a small status halo to the connected indicator."
+      }
+    ],
+    "motion": [
+      {
+        "name": "view-entry",
+        "value": ".42s cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Brief upward fade as a view becomes visible."
+      },
+      {
+        "name": "control-state",
+        "value": ".18s ease",
+        "purpose": "Button color, border, and position feedback."
+      },
+      {
+        "name": "reduced-motion",
+        "value": ".01ms",
+        "purpose": "Reduces animation and transition durations when reduced motion is requested."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "960px"
+      },
+      {
+        "name": "mobile",
+        "value": "720px"
+      },
+      {
+        "name": "compact-mobile",
+        "value": "390px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Draw Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "High-contrast action for advancing the draw.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">หมุนหลักถัดไป</button>",
+      "css": ".ds-button-primary { min-height: 42px; padding: 0 16px; border: 1px solid transparent; background: var(--green-dark); color: #fff; font: 600 12px/1.2 var(--sans); cursor: pointer; transition: background .18s ease, border-color .18s ease, color .18s ease, transform .18s ease; } .ds-button-primary:hover:not(:disabled) { background: #07452a; transform: translateY(-1px); } .ds-button-primary:active:not(:disabled) { transform: translateY(0); } .ds-button-primary:focus-visible { outline: 3px solid #83c89a; outline-offset: 3px; } .ds-button-primary:disabled { opacity: .45; cursor: not-allowed; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Secondary action alongside the primary draw control.",
+      "html": "<button class=\"ds-button-quiet\" type=\"button\">เริ่มรอบใหม่</button>",
+      "css": ".ds-button-quiet { min-height: 42px; padding: 0 16px; border: 1px solid #b6c1b5; background: transparent; color: var(--ink); font: 600 12px/1.2 var(--sans); cursor: pointer; transition: background .18s ease, border-color .18s ease, color .18s ease, transform .18s ease; } .ds-button-quiet:hover:not(:disabled) { background: #f7faf5; transform: translateY(-1px); } .ds-button-quiet:active:not(:disabled) { transform: translateY(0); } .ds-button-quiet:focus-visible { outline: 3px solid #83c89a; outline-offset: 3px; } .ds-button-quiet:disabled { opacity: .45; cursor: not-allowed; }"
+    },
+    {
+      "name": "Outline Import Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Full-width outlined action in the import form.",
+      "html": "<button class=\"ds-button-outline\" type=\"button\">นำเข้ารายชื่อ</button>",
+      "css": ".ds-button-outline { width: 100%; min-height: 38px; margin-top: 8px; padding: 0 16px; border: 1px solid var(--green-dark); background: transparent; color: var(--green-dark); font: 600 12px/1.2 var(--sans); cursor: pointer; transition: background .18s ease, border-color .18s ease, color .18s ease, transform .18s ease; } .ds-button-outline:hover:not(:disabled) { background: #e5f0e4; transform: translateY(-1px); } .ds-button-outline:active:not(:disabled) { transform: translateY(0); } .ds-button-outline:focus-visible { outline: 3px solid #83c89a; outline-offset: 3px; } .ds-button-outline:disabled { opacity: .45; cursor: not-allowed; }"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Single-line exact-name lookup field.",
+      "html": "<input class=\"ds-search-input\" type=\"search\" placeholder=\"ชื่อเต็ม\" />",
+      "css": ".ds-search-input { width: 100%; min-width: 0; height: 49px; padding: 0 14px; border: 1px solid #b8c1b5; border-radius: 0; background: var(--white); color: var(--ink); font: 400 14px/1.2 var(--sans); } .ds-search-input::placeholder { color: #8a948b; } .ds-search-input:focus-visible { outline: 3px solid #83c89a; outline-offset: 3px; }"
+    },
+    {
+      "name": "Entry Count Chip",
+      "kind": "chip",
+      "refersTo": "chip-count",
+      "description": "Compact outlined count beside the entry-list heading.",
+      "html": "<span class=\"ds-count-chip\">0</span>",
+      "css": ".ds-count-chip { display: inline-flex; min-width: 23px; height: 22px; align-items: center; justify-content: center; padding: 0 5px; border: 1px solid var(--line); color: var(--ink-soft); font: 500 10px/1 var(--mono); }"
+    },
+    {
+      "name": "Active Navigation Item",
+      "kind": "nav",
+      "refersTo": "nav-active",
+      "description": "Text navigation with a green underline on the selected view.",
+      "html": "<button class=\"ds-nav-item ds-is-active\" type=\"button\">วงล้อจับรางวัล</button>",
+      "css": ".ds-nav-item { position: relative; padding: 2px 0 0; border: 0; background: transparent; color: #5f6b62; font: 400 13px/1.2 var(--sans); white-space: nowrap; cursor: pointer; } .ds-nav-item::after { position: absolute; right: 0; bottom: -1px; left: 0; height: 3px; background: transparent; content: \"\"; } .ds-nav-item:hover, .ds-nav-item.ds-is-active { color: var(--ink); } .ds-nav-item.ds-is-active { font-weight: 700; } .ds-nav-item.ds-is-active::after { background: var(--green); } .ds-nav-item:focus-visible { outline: 3px solid #83c89a; outline-offset: 3px; }"
+    },
+    {
+      "name": "Six-Place Result Ticket",
+      "kind": "custom",
+      "refersTo": "ticket-card",
+      "description": "Six fixed digit positions on a paper ticket surface.",
+      "html": "<div class=\"ds-ticket\"><span class=\"ds-perforation\" aria-hidden=\"true\"></span><div class=\"ds-digit-track\"><div class=\"ds-digit-cell\"><small>แสน</small><strong>—</strong></div><div class=\"ds-digit-cell\"><small>หมื่น</small><strong>—</strong></div><div class=\"ds-digit-cell\"><small>พัน</small><strong>—</strong></div><div class=\"ds-digit-cell\"><small>ร้อย</small><strong>—</strong></div><div class=\"ds-digit-cell\"><small>สิบ</small><strong>—</strong></div><div class=\"ds-digit-cell\"><small>หน่วย</small><strong>—</strong></div></div><div class=\"ds-ticket-footer\"><span>ผลจับรางวัล</span><strong>พร้อมหมุน</strong></div></div>",
+      "css": ".ds-ticket { position: relative; overflow: hidden; padding: 26px 28px 14px; border: 1px solid #cbd2c7; background: var(--white); color: var(--ink); box-shadow: 0 7px 18px rgb(35 58 43 / 7%); } .ds-perforation { position: absolute; top: 15px; right: 15px; width: 29px; height: 1px; background: repeating-linear-gradient(90deg, #b9c1b5 0 3px, transparent 3px 6px); } .ds-digit-track { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); } .ds-digit-cell { min-width: 0; padding: 9px 7px 12px; text-align: center; border-right: 1px dashed #cdd2c9; } .ds-digit-cell:last-child { border-right: 0; } .ds-digit-cell small { display: block; min-height: 19px; margin-bottom: 2px; color: var(--muted); font: 400 10px/1.2 var(--sans); } .ds-digit-cell strong { display: block; color: #aeb7ad; font: 400 clamp(29px, 4.4vw, 49px)/1.22 var(--mono); font-variant-numeric: tabular-nums; } .ds-ticket-footer { display: flex; justify-content: space-between; gap: 12px; padding-top: 11px; color: var(--muted); font: 400 10px/1.2 var(--sans); } .ds-ticket-footer strong { color: var(--green-dark); font-weight: 700; }"
+    },
+    {
+      "name": "Excel File Drop",
+      "kind": "custom",
+      "description": "Dashed upload target with the project’s inline upload glyph.",
+      "html": "<label class=\"ds-file-drop\"><svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><path d=\"M16 21V5m0 0-6 6m6-6 6 6M6 19v7h20v-7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg><strong>เลือกไฟล์ Excel</strong><span>รองรับ .xlsx · สูงสุด 10 MB</span><input class=\"ds-file-input\" type=\"file\" accept=\".xlsx\"></label>",
+      "css": ".ds-file-drop { position: relative; min-height: 126px; display: grid; justify-items: center; align-content: center; gap: 4px; padding: 13px; border: 1px dashed #aebcaf; background: rgb(255 254 250 / 60%); color: var(--ink); text-align: center; cursor: pointer; transition: border-color .2s ease, background .2s ease; } .ds-file-drop:hover { border-color: var(--green); background: #f9fcf7; } .ds-file-drop svg { width: 25px; height: 25px; margin-bottom: 3px; color: var(--green); } .ds-file-drop strong { font: 600 11px/1.2 var(--sans); } .ds-file-drop span { color: var(--muted); font: 400 9px/1.2 var(--sans); } .ds-file-input { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; clip-path: inset(50%); } .ds-file-input:focus-visible { outline: 3px solid #83c89a; outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "ตั๋วและกระดานสด",
+    "overview": "The six-digit draw uses a segmented result ticket beside a fixed-order participant board. Warm paper tones, dark green print, perforation-like rules, and tabular numerals carry the ticket-and-live-board direction into a practical Thai-language interface.\n\nThe visual language keeps each digit place visible as the draw advances. Green marks drawn and matching positions, while quiet rules and paper surfaces keep names, entries, and controls legible. The same system supports the draw, exact-name lookup, and saved results without making the interface copy read like a travel document.",
+    "keyCharacteristics": [
+      "Warm paper surfaces and forest-green actions or match states.",
+      "Six equal, fixed-order digit positions with tabular numerals.",
+      "Square panels, fine rules, and restrained ticket perforation details.",
+      "Thai interface labels with a Thai sans-serif and a distinct numeric mono face."
+    ],
+    "rules": [
+      {
+        "name": "The Green Match Rule",
+        "body": "Use the green family for active progress and matching digits so the state reads consistently across the ticket and participant board.",
+        "section": "colors"
+      },
+      {
+        "name": "The Place-Value Rule",
+        "body": "Keep lottery digits in the mono face with tabular alignment so a position stays easy to compare as the draw progresses.",
+        "section": "typography"
+      },
+      {
+        "name": "The Fixed-Place Rule",
+        "body": "A match changes color and emphasis inside its existing digit cell; it does not move the number or reorder the participant row.",
+        "section": "layout"
+      }
+    ],
+    "dos": [
+      "Do keep all six digit places visible in their fixed order.",
+      "Do highlight matching digits in place with the green match treatment.",
+      "Do keep number strings in the tabular mono face, including leading zeroes.",
+      "Do let paper surfaces and fine rules carry most of the layout structure."
+    ],
+    "donts": [
+      "Don't move or reorder participant rows as matches arrive.",
+      "Don't round the main ticket, buttons, inputs, or data panels.",
+      "Don't add literal travel terminology to product copy; the ticket geometry carries the chosen metaphor."
+    ]
+  }
+}

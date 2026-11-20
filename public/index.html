@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f3ed">
+    <meta name="description" content="กระดานจับรางวัลเลข 6 หลัก พร้อมค้นหาเลขตามชื่อ">
+    <title>วงล้อลุ้นเลข — กระดานจับรางวัล</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="/app.js" type="module"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#draw"><span class="brand-mark">6</span><span class="brand-copy"><strong>วงล้อลุ้นเลข</strong><small>กระดานจับรางวัล</small></span></a>
+      <nav class="main-nav" aria-label="เมนูหลัก"><a class="nav-button is-active" href="#draw">ผลรางวัล</a><a class="nav-button" href="#search">ค้นหาเลขของฉัน</a><a class="nav-button" href="#history">ประวัติผล</a></nav>
+      <div class="connection-state" id="connection-state" data-state="connecting"><span class="connection-dot"></span><span id="connection-label">กำลังเชื่อมต่อ</span></div>
+    </header>
+    <main class="page-shell">
+      <section class="view is-visible" id="draw-view">
+        <div class="page-intro" id="draw"><div><h1>ผลจับรางวัล</h1><p class="intro-copy">ติดตามผลรางวัลสด และค้นหาเลขที่ลงทะเบียนด้วยชื่อของคุณ</p></div><div class="round-stamp"><span class="stamp-label">รอบปัจจุบัน</span><strong id="round-number">—</strong></div></div>
+        <section class="draw-panel" aria-labelledby="wheel-title"><div class="panel-topline"><h2 id="wheel-title">ตั๋วผลรางวัล</h2><p id="draw-progress" class="draw-progress" aria-live="polite">รอเริ่มหมุน</p></div><div class="ticket-board"><div id="digit-track" class="digit-track"></div><div class="ticket-footer"><span>ผลจับรางวัล</span><strong id="draw-state-label">รอเริ่มหมุน</strong></div></div></section>
+        <section id="winner-panel" class="closest-result" hidden aria-live="polite"></section>
+        <section class="search-form public-search" id="search"><label for="search-name">ค้นหาเลขของฉัน</label><form id="search-form"><div class="search-controls"><input id="search-name" autocomplete="name" placeholder="พิมพ์ชื่อบางส่วน เช่น จุ๊บ" required><button class="button button-primary" type="submit">ค้นหาเลข →</button></div></form><p id="search-feedback" class="search-feedback" role="status">พิมพ์ชื่อบางส่วนเพื่อค้นหา</p><div id="search-results" class="search-results"></div></section>
+        <section class="entries-section" id="history"><div class="list-heading"><h2>ผลย้อนหลัง</h2><span class="count-chip" id="history-count">0</span></div><div class="archive-table-wrap"><table class="archive-table"><thead><tr><th>รอบ</th><th>ผลรางวัล</th><th>วันที่บันทึก</th></tr></thead><tbody id="history-body"></tbody></table><div class="empty-state" id="history-empty"><strong>ยังไม่มีผลย้อนหลัง</strong></div></div></section>
+      </section>
+      <section class="view" id="search-view" hidden></section>
+      <section class="view" id="history-view" hidden></section>
+      <p id="draw-error" class="draw-error" role="status" hidden></p>
+    </main>
+    <footer class="page-footer"><span>วงล้อลุ้นเลข</span><span>ผู้เข้าชมเห็นผลรางวัลและค้นหาได้เฉพาะเมื่อระบุชื่อ</span><a href="/admin">สำหรับผู้ดูแล</a></footer>
+    <button class="sound-toggle" id="user-sound" type="button" aria-pressed="false">เสียง: ปิด</button>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
